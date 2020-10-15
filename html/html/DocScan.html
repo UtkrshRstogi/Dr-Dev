@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DocScan</title>
+<link rel="stylesheet" href="../css/patienthome.css" type="text/css">
+
+</head>
+<body>
+    <header>
+        
+        <!-- <div class ='logo'>
+            <img src="../images/logo.png">
+        </div> -->
+        <div class="menu">
+            <ul>
+           <li > <a href="../html/Patient Home.html" >Home</a></li>
+
+           <li> <a href="#">DocConnect</a></li>
+           <li class="active"> <a href="#">DocScan</a></li>
+           <li> <a href="../home.html">Logout</a></li>
+           <li> <a href="#">Profile</a></li>
+
+        </ul>
+          </div>
+          <div class = "mainmenu">
+            <form action="#">
+                <label for="Scan">Choose scan type:</label>
+                <select name="Scan-Type" id="Scan-Type" value="">
+                  <option value=''Selected disabled hidden>Select one</option>
+                  <option value="X-ray">Xray</option>
+                  <option value="Ultrasound">Ultrasound</option>
+                  <option value="CT-scan">CT Scan</option>
+                  <option value="MRI">MRI</option>
+                  <option value="Bone Scan">Bone Scan</option>
+
+                </select>
+                <br><br>
+
+                <!-- Second label for selecting the Disease type-->
+
+                <label for ="Disease">Choose Disease Type</label>
+                <select name="Scan-Type" id="Scan-Type">
+                    <option value='' Selected disabled hidden>Select one</option>
+                    <option value="Pneumonia">Pneumonia</option>
+                    <option value="Brain Tumor">Brain Tumor</option>
+                    <option value="Liver Masses">Liver Masses</option>
+                    <option value="Tooth Decay">Tooth decay</option>
+                    <option value="Fracture">Fracture</option>
+  
+                  </select>
+                <br> <br>
+
+                    <label for="img">Select image:</label>
+                    <input type="file" id="img" name="img" accept="image/*">
+               <br> <br>
+                 
+               <input  type="checkbox" id= 'confirmation' name= 'I-confirm'>
+               <lable  for="confirmation"> <h5>I confirm to submit my medical data with my concern.*</h5></lable> <br> <br>
+            
+               
+                <input  class ="sub" type="submit" value="Submit">
+                
+              </form>
+             
+
+
+          </div>
+          
+          
+       
+        
+    </header>
+</body>
+</html>
